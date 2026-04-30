@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NJ | Photography Portfolio</title>
+    <meta name="description"
+        content="Professional photography portfolio of NJ. Capturing moments in nature, portrait, and travel.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">NJ.</a>
+            <ul class="nav-links">
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in-up">
+            <h1 class="hero-title">NJ Photography</h1>
+            <p class="hero-tagline">Capturing the soul of the moment.</p>
+            <a href="#gallery" class="btn btn-primary">View Gallery</a>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Gallery</h2>
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="nature">Nature</button>
+                    <button class="filter-btn" data-filter="portrait">Portrait</button>
+                    <button class="filter-btn" data-filter="travel">Travel</button>
+                </div>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item fade-in" data-category="nature">
+                    <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=800&auto=format&fit=crop"
+                        alt="Nature Photography 1">
+                    <div class="gallery-overlay">
+                        <h3>Misty Mountains</h3>
+                        <p>Nature</p>
+                    </div>
+                </div>
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item fade-in" data-category="portrait">
+                    <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=800&auto=format&fit=crop"
+                        alt="Portrait Photography 1">
+                    <div class="gallery-overlay">
+                        <h3>Urban Soul</h3>
+                        <p>Portrait</p>
+                    </div>
+                </div>
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item fade-in" data-category="travel">
+                    <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=800&auto=format&fit=crop"
+                        alt="Travel Photography 1">
+                    <div class="gallery-overlay">
+                        <h3>Swiss Alps</h3>
+                        <p>Travel</p>
+                    </div>
+                </div>
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item fade-in" data-category="nature">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=800&auto=format&fit=crop"
+                        alt="Nature Photography 2">
+                    <div class="gallery-overlay">
+                        <h3>Forest Light</h3>
+                        <p>Nature</p>
+                    </div>
+                </div>
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item fade-in" data-category="portrait">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop"
+                        alt="Portrait Photography 2">
+                    <div class="gallery-overlay">
+                        <h3>Golden Hour</h3>
+                        <p>Portrait</p>
+                    </div>
+                </div>
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item fade-in" data-category="travel">
+                    <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=800&auto=format&fit=crop"
+                        alt="Travel Photography 2">
+                    <div class="gallery-overlay">
+                        <h3>Desert Journey</h3>
+                        <p>Travel</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container about-container">
+            <div class="about-image fade-in-left">
+                <img src="logo.svg" alt="NJ Brand Logo"
+                    style="padding: 20px; background: var(--secondary-bg); border: 1px solid var(--accent-color);">
+            </div>
+            <div class="about-content fade-in-right">
+                <h2 class="section-title">About NJ</h2>
+                <p class="about-text">
+                    Hello, I'm NJ. I am a professional photographer with a passion for capturing the raw beauty of the
+                    world.
+                    With over 10 years of experience, I specialize in landscape, portrait, and travel photography.
+                    My work is driven by a desire to tell stories through light and shadow, freezing moments that evoke
+                    emotion and wonder.
+                </p>
+                <p class="about-text">
+                    Whether I'm hiking through misty mountains or exploring bustling city streets, I'm always looking
+                    for that perfect shot.
+                </p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container contact-container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-subtitle">Let's create something beautiful together.</p>
+            </div>
+            <form id="contact-form" class="contact-form fade-in-up">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required placeholder=" ">
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required placeholder=" ">
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit" class="btn btn-submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 NJ Photography. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
